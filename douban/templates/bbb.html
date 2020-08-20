@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{{ url_for('register')}}" method="post">
+    姓名：<input name="username" type="text">
+    密码：<input name="password" type="text">
+    年龄：<input name="age" type="number">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
